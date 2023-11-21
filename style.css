@@ -1,0 +1,104 @@
+
+html{
+  background-color: #1b1b1b;
+}
+
+body{
+  max-width: 800px;
+  margin: auto;
+  background-color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header{
+  background-color: #333;
+}
+
+/*Hacemos esto para que la barra de navegación esté en horizontal y sea actractiva*/
+ul.menu{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+ul.menu li {
+  float: left;
+}
+
+ul.menu li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#activo{
+  color: rgb(255, 60, 60)
+}
+
+/*Cuando pasamos el ratón por encima de un elemento de la nav, se iluminará correctamente*/
+ul.menu li a:hover {
+  background-color: #5e5e5e;
+}
+
+main, aside, footer{
+  padding: 2%;
+}
+
+footer{
+  margin-top: auto;
+}
+
+h1{
+  text-align: center;
+  color: red;
+}
+
+.subtitle{
+  text-decoration: underline;
+}
+
+.contenedor p{
+  font-weight: bold;
+}
+
+
+.accentSection{
+  width: auto;
+  padding: 1em;
+  border-radius: 5%;
+  background-color: rgb(255, 60, 60);
+}
+
+
+table, th, td {
+  border:1px solid black;
+  border-collapse: collapse;
+}
+
+/*Esta tabla en concreto será de esta manera*/
+#cityTable{
+  width: 100%;
+  background-color: #333;
+  color: white;
+}
+
+/*No queremos los títulos de la tabla centrados*/
+#cityTable th{
+  color: rgb(255, 60, 60);
+  text-align: left;
+}
+
+/*Todos los links de la página serán de este color para que se mantenga la paleta de colores*/
+a{
+  color: rgb(255, 60, 60);
+}
+
+h2 + p{
+  font-style: italic;
+}
